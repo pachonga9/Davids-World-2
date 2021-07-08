@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(44, 55, 71);
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(238, 158, 231);
+    text-shadow: 2px 2px 12px rgb(31, 190, 230);
+    
+}
+
+#heyButtonContainer {
+    margin: 15px;
+    border: 1px solid red;
+    padding: 12px 12px;
+    text-align: center;
+    
+
+}
+
+#heyButton {
+    background-color: aquamarine;
+    padding: 12px;
+    color:rgb(196, 67, 110);
+    font-size: 22px;
+
+    
+}
+#navContainer {
+    margin: 15px;
+    border: 1px solid red;
+    padding: 2px;
+    background-color: rgb(201, 131, 180);
+    box-shadow: 3px 3px 7px 1px cyan;
+    
+}
+
+#navigationBar {
+ text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ padding: 4px;
+ 
+}
+#navigationBar a {
+    margin: 30px;
+    padding: 8px;
+}
+#vowelCounterContainer {
+    margin: 15px;
+    border: 1px solid red;
+    padding: 12px;
+    text-align: center;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(88, 121, 143);
+    color: rgb(172, 179, 118);
+    text-align: center;
+}
+/*box container page stuff */
+#boxOne, #boxTwo, #boxThree, #outerBox, #InnerBox {
+    text-align: center;
+    color: yellow;
+}
+
+#boxOne {
+    background-color: rgb(204, 75, 75);
+    box-shadow: 2px 2px 40px 4px cyan;
+    margin: 25px;
+    height: 100px;
+    width: 50%;
+    margin-left: 600px;
+    position: relative;
+}
+
+#boxTwo {
+    background-color: rgb(118, 241, 118);
+    margin: 25px;
+    height: 100px;
+    width: 50%;
+    position: relative;
+    box-shadow:  2px 2px 22px coral;
+    border-radius: 100px;
+}
+
+#boxThree {
+    background-color: lightskyblue;
+    margin: 15px;
+    height: 100px;
+    width: 50%;
+    margin-left: 600px;
+    border-color: rgb(217, 247, 83);
+    border-style: groove;
+    
+}
+
+#outerBox {
+    background-color: orchid;
+    margin: 15px;
+    height: 100px;
+    width: 50%;
+}
+
+#innerBox {
+    
+    background-color: blue;
+    margin: 15px;
+    height: 20px;
+    width: 50%;
+    border-style: inset;
+}
+#boxH2Element {
+    color: rgb(241, 199, 91);
+    text-align: center;
+}
+
+#inputContainer {
+    text-align: center;
+}
+
+/* calculator stuff */
+
+
+
