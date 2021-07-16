@@ -1,5 +1,5 @@
 const submitButton = document.getElementById('submitButton');
-const userInput = document.getElementById('userInput').value;
+const userInput = document.getElementById('userInput');
 const outputContainer = document.getElementById('outputContainer');
 const vowels = "aeiou";
 
@@ -7,16 +7,16 @@ const vowels = "aeiou";
 
 
 const doStuff = () => {
-    const countVowels = (userInput) => {
+    const countVowels = (string) => {
         let count = 0;
-             for (let letter of userInput.toLowerCase()) {
+             for (let letter of string.toLowerCase()) {
                 if (vowels.includes(letter)) {
                     count++;
         }
     }
         return count;
  }
-    const result = countVowels(userInput);
+    const result = countVowels(userInput.value);
     
     let paragraph = document.createElement('p');
     outputContainer.appendChild(paragraph);

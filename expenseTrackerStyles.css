@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(44, 55, 71);
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(238, 158, 231);
+    text-shadow: 2px 2px 12px rgb(31, 190, 230);
+    
+}
+p {
+    text-align: center;
+    color: aliceblue;
+}
+#inputContainer {
+    text-align: center;
+}
+
+#navContainer {
+    margin: 15px;
+    border: 1px solid red;
+    padding: 2px;
+    background-color: rgb(201, 131, 180);
+    box-shadow: 3px 3px 7px 1px cyan;
+    
+}
+
+#navigationBar {
+ text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ padding: 4px;
+ 
+}
+#navigationBar a {
+    margin: 30px;
+    padding: 8px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(88, 121, 143);
+    color: rgb(172, 179, 118);
+    text-align: center;
+}
