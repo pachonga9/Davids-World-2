@@ -14,9 +14,7 @@ p {
     text-align: center;
     color: aliceblue;
 }
-#inputContainer {
-    text-align: center;
-}
+
 
 #navContainer {
     margin: 15px;
@@ -36,6 +34,14 @@ p {
 #navigationBar a {
     margin: 30px;
     padding: 8px;
+}
+
+#trackerContainer {
+    box-sizing: border-box;
+    border: 1px solid green;
+    margin: 80px;
+    height: 100px;
+    width: 100px;
 }
 footer {
     position: fixed;
