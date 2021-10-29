@@ -8,6 +8,7 @@ let theOtherThings = document.getElementById("theOtherThings");
 let thirdText = document.getElementById("thirdText");
 let fourthText = document.getElementById("fourthText");
 let fifthText = document.getElementById("fifthText");
+let comingSoon = document.getElementById("comingSoon");
 // let hideThese = document.querySelectorAll("hidden");
 
 let myButton = (document.getElementById("myButton").onclick = function () {
@@ -18,7 +19,8 @@ let myButton = (document.getElementById("myButton").onclick = function () {
   thirdText.classList.toggle("fade");
   fourthText.classList.toggle("fade");
   fifthText.classList.toggle("fade");
-  //   setTimeout(function () {
-  //     hideThese.classList.toggle("hide");
-  //   }, 3000);
+
+  setTimeout(function () {
+    comingSoon.classList.toggle("fade");
+  }, 10000);
 });
