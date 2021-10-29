@@ -1,0 +1,109 @@
+body {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}
+
+#myButton {
+  background-color: black;
+  color: bisque;
+  font-family: fantasy;
+}
+#firstText {
+  color: aliceblue;
+  text-align: center;
+  font-family: DejaVu Sans Mono, monospace;
+  opacity: 0;
+  -webkit-transition: opacity 6.3s ease-in-out;
+  -moz-transition: opacity 6.3s ease-in-out;
+  -ms-transtition: opacity 6.3s ease-in-out;
+  -o-transition: opacity 6.3s ease-in-out;
+  transition: opacity 6.3s ease-in-out;
+}
+
+#firstText.fade {
+  opacity: 1;
+}
+
+#secondText {
+  color: aliceblue;
+  text-align: center;
+  font-family: DejaVu Sans Mono, monospace;
+  opacity: 0;
+  -webkit-transition: opacity 8.3s ease-in-out;
+  -moz-transition: opacity 8.3s ease-in-out;
+  -ms-transtition: opacity 8.3s ease-in-out;
+  -o-transition: opacity 8.3s ease-in-out;
+  transition: opacity 8.3s ease-in-out;
+}
+
+#secondText.fade {
+  opacity: 1;
+}
+
+#theOtherThings {
+  color: aliceblue;
+  text-align: center;
+  font-family: DejaVu Sans Mono, monospace;
+  opacity: 1;
+  -webkit-transition: opacity 15.6s ease-in-out;
+  -moz-transition: opacity 15.6s ease-in-out;
+  -ms-transtition: opacity 15.6s ease-in-out;
+  -o-transition: opacity 15.6s ease-in-out;
+  transition: opacity 15.6s ease-in-out;
+}
+
+#theOtherThings.fade {
+  opacity: 1;
+  color: crimson;
+  text-shadow: red 0px 3px 7px;
+  transition: 25s;
+}
+
+#thirdText {
+  color: aliceblue;
+  text-align: center;
+  font-family: DejaVu Sans Mono, monospace;
+  opacity: 0;
+  -webkit-transition: opacity 10.3s ease-in-out;
+  -moz-transition: opacity 10.3s ease-in-out;
+  -ms-transtition: opacity 10.3s ease-in-out;
+  -o-transition: opacity 10.3s ease-in-out;
+  transition: opacity 10.3s ease-in-out;
+}
+
+#thirdText.fade {
+  opacity: 1;
+}
+
+#fourthText {
+  color: aliceblue;
+  text-align: center;
+  font-family: DejaVu Sans Mono, monospace;
+  opacity: 0;
+  -webkit-transition: opacity 11.3s ease-in-out;
+  -moz-transition: opacity 11.3s ease-in-out;
+  -ms-transtition: opacity 11.3s ease-in-out;
+  -o-transition: opacity 11.3s ease-in-out;
+  transition: opacity 11.3s ease-in-out;
+}
+
+#fourthText.fade {
+  opacity: 1;
+}
+
+#fifthText {
+  color: aliceblue;
+  text-align: center;
+  font-family: DejaVu Sans Mono, monospace;
+  opacity: 0;
+  -webkit-transition: opacity 11.6s ease-in-out;
+  -moz-transition: opacity 11.6s ease-in-out;
+  -ms-transtition: opacity 11.6s ease-in-out;
+  -o-transition: opacity 11.6s ease-in-out;
+  transition: opacity 11.6s ease-in-out;
+}
+
+#fifthText.fade {
+  opacity: 1;
+}
