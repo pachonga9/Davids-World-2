@@ -9,6 +9,7 @@ let thirdText = document.getElementById("thirdText");
 let fourthText = document.getElementById("fourthText");
 let fifthText = document.getElementById("fifthText");
 let comingSoon = document.getElementById("comingSoon");
+let sickle = document.getElementById("sickle");
 // let hideThese = document.querySelectorAll("hidden");
 
 let myButton = (document.getElementById("myButton").onclick = function () {
